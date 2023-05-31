@@ -17,23 +17,23 @@
             </div>
             <div id="formulario">
                 <h1>login</h1>
-                <p>Seja bem-vindo(a) novamente, Faça login para acessar sua conta e poder fazer as configuraçôes no seu ambiente.  </p>
+                <p>Seja bem-vindo(a) novamente, Faça login para acessar sua conta e poder fazer as configuraçôes no seu ambiente. </p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                        <span class="material-icons">account_circle</span>
+                        <span id="a" class="material-icons">account_circle</span>
                         <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
-                        <label for="ilogin">login</label>
+                        <label for="ilogin"></label>
                     </div>
                     <div class="campo">
-                        <span class="material-icons"> vpn_key </span>
+                        <span id="b" class="material-icons">vpn_key</span>
 
-                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20">
-                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" maxlength="20" placeholder="sua senha">
+                        <label for="isenha"></label>
                     </div>
 
                     <input type="submit" value="Entrar">
-                    <a href="#">Esquecia a senha 
-                    <span class="material-icons">mail</span>
+                    <a href="#" class="botao">Esquecia a senha 
+                    <span id="i" class="material-icons">mail</span>
                     </a>
                 </form>
             </div>
